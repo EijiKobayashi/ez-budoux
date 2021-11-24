@@ -1,0 +1,16 @@
+{
+	"folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#175d96",
+      "activityBarBadge.background": "#175d96"
+    },
+    "editor.codeActionsOnSave": null,
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Osaka-Mono, Menlo, Monaco, 'Courier New', monospace"
+  }
+}
