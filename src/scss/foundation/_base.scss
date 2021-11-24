@@ -1,0 +1,29 @@
+// Variable
+@use './foundation/_variable' as *;
+// Mixin
+@use './foundation/_mixin' as m;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  color: $color-dark;
+  //@include
+  font-family: 'Shippori Mincho', serif;
+  line-height: 1.6;
+  width: 100%;
+  height: 100%;
+  background-color: $color-lightgray;
+  overflow: scroll;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+}

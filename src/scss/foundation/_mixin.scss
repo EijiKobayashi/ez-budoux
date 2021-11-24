@@ -1,0 +1,20 @@
+// clear fix
+@mixin clearfix {
+  zoom: 1;
+
+  &::before,
+  &::after {
+    display: table;
+    content: '';
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+// font size
+@mixin font-size($font-size, $base-size: 16) {
+  font-size: $font-size + px;
+  font-size: ($font-size / $base-size) + rem;
+}

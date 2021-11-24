@@ -1,0 +1,25 @@
+// Variable
+@use './foundation/_variable' as *;
+
+// Mixin
+@use './foundation/_mixin' as m;
+
+// Header
+.l-header {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10% 5%;
+  box-sizing: border-box;
+
+  @media screen and (min-width: $tb-width) {
+    max-width: $tb-width;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+
+  h1 {
+    color: $color-budou;
+    font-weight: 700;
+  }
+}

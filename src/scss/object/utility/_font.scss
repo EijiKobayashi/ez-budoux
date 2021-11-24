@@ -1,0 +1,87 @@
+// Variable
+@use './foundation/_variable' as *;
+
+// Mixin
+@use './foundation/_mixin' as m;
+
+.Mincho {
+  font-family: 'Shippori Mincho', serif;
+}
+
+.Antique {
+  font-family: 'Shippori Antique', 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
+.AntiqueB1 {
+  font-family: 'Shippori Antique B1', 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
+.f12 {
+  @include m.font-size(12);
+}
+
+.f14 {
+  @include m.font-size(14);
+}
+
+.f16 {
+  @include m.font-size(16);
+}
+
+.f18 {
+  @include m.font-size(18);
+}
+
+.f20 {
+  @include m.font-size(20);
+}
+
+.f22 {
+  @include m.font-size(22);
+}
+
+.f24 {
+  @include m.font-size(24);
+}
+
+.f26 {
+  @include m.font-size(26);
+}
+
+.f28 {
+  @include m.font-size(28);
+}
+
+.f30 {
+  @include m.font-size(30);
+}
+
+.f40 {
+  @include m.font-size(40);
+}
+
+.f50 {
+  @include m.font-size(50);
+}
+
+.f60 {
+  @include m.font-size(60);
+}
+
+.f70 {
+  @include m.font-size(70);
+}
+
+.f80 {
+  @include m.font-size(80);
+}
+
+.f90 {
+  @include m.font-size(90);
+}
+
+.f100 {
+  @include m.font-size(100);
+}

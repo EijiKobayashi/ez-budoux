@@ -1,0 +1,26 @@
+// Variable
+@use './foundation/_variable' as *;
+
+// Mixin
+@use './foundation/_mixin' as m;
+
+// Footer
+.l-footer {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 10% 5%;
+  box-sizing: border-box;
+
+  @media screen and (min-width: $tb-width) {
+    max-width: $tb-width;
+    margin: 0 auto;
+    padding: 5% 0;
+  }
+
+  &__inner {
+    address {
+      @include m.font-size(12);
+    }
+  }
+}
