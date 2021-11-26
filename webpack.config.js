@@ -8,6 +8,7 @@ const WebpackCdnPlugin = require('webpack-cdn-plugin');
 const LazyLoadWebpackPlugin = require('lazyload-webpack-plugin');
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 const targetTypes = { html: 'html', js: 'js' };
+const TerserPlugin = require('terser-webpack-plugin');
 
 const getEntriesList = (targetTypes) => {
   const entriesList = {};
@@ -32,7 +33,7 @@ const app = {
   mode: 'production', // production / development
 
   entry: {
-    main: './src/js/ez-budoux.js',
+    'ez-budoux': './src/js/ez-budoux.js',
   },
   output: {
     path: path.resolve(__dirname, 'public'),
@@ -144,7 +145,7 @@ const app = {
   },
   externals: [
     {
-      jQuery: 'jquery',
+      //jQuery: 'jquery',
     },
   ],
   plugins: [
@@ -154,6 +155,13 @@ const app = {
       filename: './assets/css/style.css',
     }),
   ],
+  optimization: {
+    minimizer: [
+      new TerserPlugin({
+        extractComments: 'all',
+      }),
+    ],
+  },
   resolve: {
     extensions: ['.ts', '.js', '.json'],
   },

@@ -32,7 +32,7 @@ const app = {
   mode: 'development', // production / development
 
   entry: {
-    main: './src/js/ez-budoux.js', // デフォルトのエントリーポイント
+    'ez-budoux': './src/js/ez-budoux.js', // デフォルトのエントリーポイント
   },
   output: {
     path: path.resolve(__dirname, 'public'),
@@ -155,7 +155,7 @@ const app = {
   },
   externals: [
     {
-      jQuery: 'jquery',
+      //jQuery: 'jquery',
     },
   ],
   plugins: [
