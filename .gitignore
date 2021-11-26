@@ -1,6 +1,6 @@
 # Node artifact files
 node_modules/
-public/
+# public/
 package-lock.json
 yarn.lock
 

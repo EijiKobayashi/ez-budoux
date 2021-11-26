@@ -27,3 +27,13 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-overflow-scrolling: touch;
 }
+
+a {
+  @include m.link-color($color-budou, $color-budou, $color-budou, $color-budou);
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    text-decoration: none;
+    opacity: 0.6;
+  }
+}
