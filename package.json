@@ -1,5 +1,5 @@
 {
-  "name": "easy-budoux",
+  "name": "ez-budoux",
   "license": "MIT",
   "scripts": {
     "dev": "webpack --mode development",

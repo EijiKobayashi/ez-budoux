@@ -1,1 +1,1 @@
-# easy-budoux
+# ez-budoux
