@@ -30,15 +30,15 @@
 ```HTML
 <p data-budoux="true">あの<strong>イーハトーヴォ</strong>のすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られた<em>モリーオ市</em>、郊外のぎらぎらひかる草の波。</p>
 ```
-- 文章の囲むタグにデータ属性 data-budoux="true" を付与する  
+- 文章を囲むタグにデータ属性 data-budoux="true" を付与する  
 ※ &lt;wbr&gt; で区切りられます
 
 #### 基本 + しきい値  
 ```HTML
 <p data-budoux="true" data-budoux-threshold="100">あの<strong>イーハトーヴォ</strong>のすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られた<em>モリーオ市</em>、郊外のぎらぎらひかる草の波。</p>
 ```
-- 文章の囲むタグにデータ属性 data-budoux="true" を付与する  
-- 文章の囲むタグにデータ属性 data-budoux-threshold (しきい値: 100 〜 2000) を付与する  
+- 文章を囲むタグにデータ属性 data-budoux="true" を付与する  
+- 文章を囲むタグにデータ属性 data-budoux-threshold (しきい値: 100 〜 2000) を付与する  
 ※ デフォルト値は 1000 です  
 ※ 小: 区切りが多い, 大: 区切りが少ない  
 
@@ -46,9 +46,9 @@
 ```HTML
 <p data-budoux="true" data-budoux-threshold="100" data-budoux-type="br">あの<strong>イーハトーヴォ</strong>のすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られた<em>モリーオ市</em>、郊外のぎらぎらひかる草の波。</p>
 ```
-- 文章の囲むタグにデータ属性 data-budoux="true" を付与する  
-- 文章の囲むタグにデータ属性 data-budoux-threshold (しきい値: 100 〜 2000) を付与する  
-- 文章の囲むタグにデータ属性 data-budoux-type (値: br, wbr, span) を付与する  
+- 文章を囲むタグにデータ属性 data-budoux="true" を付与する  
+- 文章を囲むタグにデータ属性 data-budoux-threshold (しきい値: 100 〜 2000) を付与する  
+- 文章を囲むタグにデータ属性 data-budoux-type (値: br, wbr, span) を付与する  
 ※ &lt;br&gt;, &lt;wbr&gt;, &lt;span&gt; のいずれかで区切りられます  
 ※ class が付与されます  
 ※ &lt;html&gt; タグは無効化されます  
