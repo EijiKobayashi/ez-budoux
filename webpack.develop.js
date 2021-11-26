@@ -32,7 +32,7 @@ const app = {
   mode: 'development', // production / development
 
   entry: {
-    main: './src/js/main.js', // デフォルトのエントリーポイント
+    main: './src/js/ez-budoux.js', // デフォルトのエントリーポイント
   },
   output: {
     path: path.resolve(__dirname, 'public'),

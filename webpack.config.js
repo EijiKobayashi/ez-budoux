@@ -32,7 +32,7 @@ const app = {
   mode: 'production', // production / development
 
   entry: {
-    main: './src/js/main.js',
+    main: './src/js/ez-budoux.js',
   },
   output: {
     path: path.resolve(__dirname, 'public'),
