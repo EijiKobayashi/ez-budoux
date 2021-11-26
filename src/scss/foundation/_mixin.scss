@@ -18,3 +18,22 @@
   font-size: $font-size + px;
   font-size: ($font-size / $base-size) + rem;
 }
+
+// link color
+@mixin link-color($link, $visited, $hover, $active) {
+  &:link {
+    color: $link;
+  }
+
+  &:visited {
+    color: $visited;
+  }
+
+  &:hover {
+    color: $hover;
+  }
+
+  &:active {
+    color: $active;
+  }
+}
